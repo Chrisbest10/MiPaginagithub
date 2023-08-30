@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: black;
+    position: absolute;
+    left: 600px;
+    bottom: 450px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 10%;
+}
+
+
+/* container */
+
+#container {
+    margin: auto;
+    max-width: 100%;
+    width: 1000%;
+    height: 520px;
+    background-color: grey;
+    position: absolute;
+    bottom: -50%;
+
+}
+
+.imgRedonda1 {
+
+    width: 150px;
+    height: 140px;
+    border-radius: 150px;
+    border: 10px solid #666;
+    position: absolute;
+    left: 250px;
+    bottom: 170px;
+    -moz-border-radius: 150%;
+    -webkit-border-radius: 150%;
+}
+
+.titulo1 {
+    position: absolute;
+    left: 290px;
+    top: 130px;
+}
+
+.imgRedonda2 {
+    width: 150px;
+    height: 140px;
+    border-radius: 150px;
+    border: 10px solid #666;
+    position: absolute;
+    left: 470px;
+    bottom: 170px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.titulo2 {
+    position: absolute;
+    left: 520px;
+    top: 130px;
+}
+
+.imgRedonda3 {
+    width: 150px;
+    height: 140px;
+    border-radius: 150px;
+    border: 10px solid #666;
+    position: absolute;
+    left: 690px;
+    bottom: 170px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+
+.titulo3 {
+    left: 730px;
+    top: 130px;
+}
+
+.imgRedonda4 {
+    width: 150px;
+    height: 140px;
+    border-radius: 150px;
+    border: 10px solid #666;
+    position: absolute;
+    left: 910px;
+    bottom: 170px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.titulo4 {
+    left: 930px;
+    top: 130px;
+}
+
+
+.imgRedonda1:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.imgRedonda2:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.imgRedonda3:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.imgRedonda4:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+/*container 1*/
+
+#container1 {
+    max-width: 100%;
+    width: 1000%;
+    height: 520px;
+    background-color: rgb(155, 155, 155);
+    position: absolute;
+    bottom: -129%;
+
+}
+
+.titulo5 {
+    color: black;
+    position: absolute;
+    left: 500px;
+    bottom: 320px;
+    text-align: center; 
+}
+
+.texto {
+    font-size: 17px;
+    color: #fff;
+    position: absolute;
+    left: 420px;
+    bottom: -65px;
+    text-align: left;
+    font-weight: bold;
+    white-space:pre-line;
+}
+
+#cuadro{
+    width: 1348px;
+    height: 310px;
+    background-color:  rgb(179, 177, 177);
+    position: relative;
+    top:60px;
+    left: 1px;
+}
+
+.imagen{
+   width: 500px;
+   height: 300px;
+   position: relative;
+   top: 5px;
+   left: 410px;
+}
+  
+
+/* footer */
+
+footer {
+    list-style: none;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(179, 177, 177);
+    position: absolute;
+    bottom: -129%;
+    line-height: normal;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.titulo6 {
+    color: black;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    text-align: center;
+}
+
+.fa-facebook{
+    line-height: 40px;
+    font-size: 50px;
+    position: absolute;
+    top: -10px;
+    left: -60px;
+    color: #fff;
+}
+
+.titulo7{
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 30px;
+    position: absolute;
+    top: 25px;
+    left: 310px;
+    color: #fff;
+}
+
+.fa-instagram{
+    line-height: 40px;
+    font-size: 50px;
+    position: absolute;
+    top: -5px;
+    left: -50px;
+    color: #fff;
+}
+
+.titulo8{
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 30px;
+    position: absolute;
+    top: 25px;
+    left: 550px;
+    color: #fff;
+}
+
+.fa-twitter-square{
+    line-height: 40px;
+    font-size: 50px;
+    position: absolute;
+    top: -5px;
+    left: -50px;
+    color: #fff;
+}
+
+.titulo9{
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 30px;
+    position: absolute;
+    top: 25px;
+    left: 800px;
+    color: #fff;
+}
+
+
+.fa-whatsapp{
+    line-height: 40px;
+    font-size: 50px;
+    position: absolute;
+    top: -5px;
+    left: -50px;
+    color: #fff;
+}
+
+.titulo10{
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 30px;
+    position: absolute;
+    top: 25px;
+    left: 999px;
+    color: #fff;
+}
